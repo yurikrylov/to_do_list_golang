@@ -2,4 +2,11 @@ module github.com/yurikrylov/to_do_list_golang
 
 go 1.25.0
 
-require github.com/mattn/go-sqlite3 v1.14.32 // indirect
+require (
+	github.com/daviddengcn/go-colortext v1.0.0 // indirect
+	github.com/dixonwille/wmenu v4.0.2+incompatible // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-sqlite3 v1.14.32 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	gopkg.in/dixonwille/wlog.v2 v2.0.0 // indirect
+)
